@@ -92,7 +92,7 @@ LOCAL_SRC_FILES := \
 	src/gl/matvec.c \
 		
 
-LOCAL_CFLAGS += -g -funwind-tables -frename-registers -funroll-loops -fno-signed-zeros -fno-trapping-math -march=native -Ofast -fvisibility=hidden -include include/android_debug.h
+LOCAL_CFLAGS += -g -funwind-tables -frename-registers -funroll-loops -fno-signed-zeros -fno-trapping-math -Ofast -fvisibility=hidden -include include/android_debug.h
 LOCAL_CFLAGS += -DNOX11
 LOCAL_CFLAGS += -DNO_GBM
 LOCAL_CFLAGS += -DNDEBUG
